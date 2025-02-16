@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Access Page</title>
+    <title>Service Records</title>
     <style>
         body { text-align: center; font-family: Arial, sans-serif; }
-        button { margin: 20px; padding: 10px 20px; font-size: 18px; cursor: pointer; }
+        h1 { color: #333; }
+        iframe { width: 90%; height: 500px; border: none; }
     </style>
 </head>
 <body>
-    <h1>Welcome</h1>
+    <h1>Service History</h1>
+    <p>Below you can see the latest service records.</p>
     
-    <!-- User button redirects to user.html -->
-    <button onclick="window.location.href='user.html'">User</button>
-    
-    <!-- Service Engineer button redirects to Google Form -->
-    <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfOesSSBVSYaXKi6Uz1nuT4HCEqM0cXtklMo07kMoVQajuUug/viewform?usp=dialog'">
-        Service Engineer
-    </button>
+    <!-- Embed Google Sheet with Service Data -->
+    <iframe src="https://docs.google.com/spreadsheets/d/e/XXXXXXXXXX/pubhtml" allowfullscreen></iframe>
 </body>
 </html>
