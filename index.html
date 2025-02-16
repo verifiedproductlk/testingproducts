@@ -4,12 +4,16 @@
     <title>Access Page</title>
     <style>
         body { text-align: center; font-family: Arial, sans-serif; }
-        button { margin: 20px; padding: 10px 20px; font-size: 18px; }
+        button { margin: 20px; padding: 10px 20px; font-size: 18px; cursor: pointer; }
     </style>
 </head>
 <body>
     <h1>Welcome</h1>
     <button onclick="alert('User Access')">User</button>
-    <button onclick="alert('Service Engineer Access')">Service Engineer</button>
+    
+    <!-- Button redirects to Google Form -->
+    <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfOesSSBVSYaXKi6Uz1nuT4HCEqM0cXtklMo07kMoVQajuUug/viewform?usp=dialog'">
+        Service Engineer
+    </button>
 </body>
 </html>
